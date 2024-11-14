@@ -1,5 +1,5 @@
 module Site
-  class PostsController < ApplicationController
+  class PostsController < SiteController
     before_action :set_post, only: %i[ edit update destroy ]
 
     # GET /posts or /posts.json
